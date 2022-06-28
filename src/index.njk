@@ -1,0 +1,19 @@
+---
+title: De NIRALE
+layout: layout.njk
+cssPath: ./css/
+---
+<header class="header">
+    <div class="header__inner">
+<h1 class="header__logo"><a href="./about" class="header__logo-link">{{ title }}</a><h1>
+    </div>
+</header>
+
+    <div class="items__content">
+{% for item in items %}
+<div class="items__pros">
+    <img src="./images/{{item.itemphotos[0]}}" alt="">
+	<p><a href="../authors/{{ item.name }}"> {{ item.name }} </a></p>
+</div>
+	{% endfor %}
+    </ul>

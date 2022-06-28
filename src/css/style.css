@@ -1,0 +1,14 @@
+p {
+    font-size: 14px;
+    margin-left: 0;
+}
+
+.items__content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.items__pros {
+    width: 20%;
+}
