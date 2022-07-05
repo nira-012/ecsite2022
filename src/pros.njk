@@ -1,0 +1,21 @@
+---
+pagination:
+  data: pros
+  size: 1
+  alias: item
+permalink: 'pros/{{ item.id | slugify }}/'
+layout: layout.njk
+cssPath:  ../../css/
+imgPath:  ../../images/
+indexPath: ../../index.html
+---
+
+{{ pagination.items | log }}
+
+
+
+
+<ul>
+	<li>{{ item.name }}</li>
+	<li>{{ item.id }}</li>
+</ul>

@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@mixin inner($w: 85%, $mw: 1280px) {
+    width: $w;
+    max-width: $mw;
+    margin: 0 auto;
+}
+
+@mixin flex($j: space-between, $a: flex-start) {
+    display: flex;
+    justify-content: $j;
+    align-items: $a;
+}
+
+$black: #062529;
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+body {
+    background: #fff;
+    color: $black ;
+}
+
+.header {
+    margin-top: 30px;
+
+    &__inner {
+        @include inner;
+        @include flex($a: center);
+    }
+
+    &__nav {
+        @include flex($j: flex-end, $a: center);
+        width: 60%;
+    }
+
+    &__list {
+        @include flex;
+        list-style: none;
+    }
+
+    &__btns {
+        @include flex;
+    }
+
+    &__item {
+        &-link {
+            font-size: 18 px;
+            font-weight: bold;
+            text-decoration: none;
+            color: $black;
+        }
+
+        margin-right: 20px;
+    }
+
+    &__icon {
+        width: 30px;
+        margin-left: 20px;
+    }
+}
+
+.items {
+
+    &__inner {
+        @include inner;
+    }
+
+    &__content {
+        @include flex($j: flex-start);
+        flex-wrap: wrap;
+    }
+
+    &__link {
+        display: block;
+        width: 30%;
+    }
+
+}
