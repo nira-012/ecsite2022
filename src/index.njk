@@ -11,9 +11,11 @@ cssPath: ./css/
 
     <div class="items__content">
 {% for item in items %}
+<a href="../authors/{{ item.name }}">
 <div class="items__pros">
     <img src="./images/{{item.itemphotos[0]}}" alt="">
-	<p><a href="../authors/{{ item.name }}"> {{ item.name }} </a></p>
+	<p> {{ item.name }}</p>
 </div>
+ </a>
 	{% endfor %}
     </ul>
