@@ -3,7 +3,7 @@ pagination:
   data: pros
   size: 1
   alias: item
-permalink: 'pros/{{ item.id | slugify }}/'
+permalink: 'pros/{{ item.url | slugify }}/'
 layout: layout.njk
 cssPath:  ../../css/
 imgPath:  ../../images/
@@ -17,5 +17,5 @@ indexPath: ../../index.html
 
 <ul>
 	<li>{{ item.name }}</li>
-	<li>{{ item.id }}</li>
+	<li>{{ item.url }}</li>
 </ul>
