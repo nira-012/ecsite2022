@@ -2,16 +2,26 @@
     {
         "itemphotos": [
             "rose.jpg",
-            "red-2.jpg",
-            "red-3.jpg",
-            "red-4.jpg"
+            "rose-2.jpg",
+            "rose-3.jpg",
+            "rose-4.jpg"
         ],
         "name": "レッドローズ",
         "price": 12,
         "state": "TRUE",
-        "text": "情熱の赤",
+        "text": "長さを変化させて、付け方のバリエーションを楽しむことが出来るラリアットネックレスです。鏡面仕上げで作り上げた柔らかなシルエットの丸パーツとマットに仕上げたバーパーツのコンビネーション。チェーンは立体的なボックスシルエットのスネークを使用し単体での使用でも存在感のあるネックレスに仕上げています。長さは70cmとロング丈で製作していますので、その他のネックレスとの重ね付けや重にしたチョーカー使用もおすすめです。",
         "id": 27002,
-        "colors": "赤",
+        "colors": [
+            {
+                "label": "red"
+            },
+            {
+                "label": "red"
+            },
+            {
+                "label": "red"
+            }
+        ],
         "maker": "（株）やおきん",
         "url": "rose"
     },
@@ -126,5 +136,53 @@
         "colors": "青",
         "maker": "よっちゃん食品工業（株）",
         "url": "skull"
+    },
+    {
+        "itemphotos": [
+            "rose.jpg",
+            "red-2.jpg",
+            "red-3.jpg",
+            "red-4.jpg"
+        ],
+        "name": "レッドローズ",
+        "price": 12,
+        "state": "TRUE",
+        "text": "情熱の赤",
+        "id": 27002,
+        "colors": "赤",
+        "maker": "（株）やおきん",
+        "url": "rose2"
+    },
+    {
+        "itemphotos": [
+            "dolphin.jpg",
+            "dolphin-2.jpg",
+            "dolphi-3.jpg",
+            "dolphin-4.jpg"
+        ],
+        "name": "ドルフィン",
+        "price": 50,
+        "state": "FALSE",
+        "text": "情熱の青",
+        "id": "4710158-2",
+        "colors": "青",
+        "maker": "よっちゃん食品工業（株）",
+        "url": "dolphin2"
+    },
+    {
+        "itemphotos": [
+            "ship.jpg",
+            "ship-2.jpg",
+            "ship-3.jpg",
+            "ship-4.jpg"
+        ],
+        "name": "パイレーツ",
+        "price": 12,
+        "state": "TRUE",
+        "text": "情熱の赤",
+        "id": 27002,
+        "colors": "赤",
+        "maker": "（株）やおきん",
+        "url": "ship2"
     }
 ]

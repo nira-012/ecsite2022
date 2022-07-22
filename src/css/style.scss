@@ -151,3 +151,61 @@ body {
     }
 
 }
+
+//single-------------------------------
+//single-------------------------------
+//single-------------------------------
+
+.pros {
+    &__inner {
+        @include inner($w: 75%);
+        @include flex($j: flex-start);
+    }
+
+    &__images {
+        width: 40%;
+    }
+
+    &__mainimg {
+        width: 100%;
+    }
+
+    &__subimg {
+        @include flex;
+        margin-top: 30px;
+
+    }
+
+    &__info {
+        width: 45%;
+    }
+
+    &__miniimg {
+        width: 30%;
+    }
+
+    &__name {
+        font-size: 16px;
+    }
+
+    &__price {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    &__num {
+        border: 1px solid #888;
+        border-radius: 5px;
+        padding: 0 3px;
+        margin-left: 15px;
+        font-size: 14px;
+
+    }
+
+    &__label {
+        font-size: 14px;
+        letter-spacing: 0.1em;
+        color: #444;
+
+    }
+}

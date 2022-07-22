@@ -171,4 +171,71 @@ body {
   top: 0;
   left: 0;
 }
+
+.pros__inner {
+  width: 75%;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.pros__images {
+  width: 40%;
+}
+
+.pros__mainimg {
+  width: 100%;
+}
+
+.pros__subimg {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  margin-top: 30px;
+}
+
+.pros__info {
+  width: 45%;
+}
+
+.pros__miniimg {
+  width: 30%;
+}
+
+.pros__name {
+  font-size: 16px;
+}
+
+.pros__price {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.pros__num {
+  border: 1px solid #888;
+  border-radius: 5px;
+  padding: 0 3px;
+  margin-left: 15px;
+  font-size: 14px;
+}
+
+.pros__label {
+  font-size: 14px;
+  letter-spacing: 0.1em;
+  color: #444;
+}
 /*# sourceMappingURL=style.css.map */
