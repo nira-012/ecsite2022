@@ -32,6 +32,17 @@ body {
     padding-top: 30px;
     margin-bottom: 30px;
 
+    &__logo {
+        width: 50px;
+
+        &-link {
+            color: $black;
+            text-decoration: none;
+            font-family: serif;
+        }
+
+    }
+
     &__inner {
         @include inner;
         @include flex($a: center);
@@ -66,6 +77,73 @@ body {
         width: 30px;
         margin-left: 20px;
     }
+}
+
+.footer {
+    background: $black;
+    color: #fff;
+    padding-top: 60px;
+    margin-top: 100px;
+
+    &__inner {
+        @include inner($w: 50%);
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: serif;
+    }
+
+    &__list {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        list-style: none;
+        @include flex();
+
+
+    }
+
+    &__item {
+        &-link {
+            display: block;
+            font-size: 20px;
+            font-weight: bold;
+            text-decoration: none;
+            color: #fff;
+        }
+
+    }
+
+    &__copy {
+        background: #000;
+        padding: 15px 0;
+
+        &-inner {
+            @include inner();
+            @include flex($a: center);
+        }
+    }
+
+    &__small {
+        font-weight: bold;
+    }
+
+    &__icons {
+        @include flex;
+    }
+
+    &__icon {
+        display: block;
+        margin-left: 10px;
+    }
+
+    &__img {
+        width: 30px;
+    }
+
+
 }
 
 .mainv {
@@ -150,6 +228,13 @@ body {
         left: 0;
     }
 
+    &__span {
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        border: 1px solid #ffff;
+    }
+
 }
 
 //single-------------------------------
@@ -159,7 +244,7 @@ body {
 .pros {
     &__inner {
         @include inner($w: 75%);
-        @include flex($j: flex-start);
+        @include flex();
     }
 
     &__images {
@@ -177,28 +262,66 @@ body {
     }
 
     &__info {
-        width: 45%;
+        width: 55%;
     }
 
     &__miniimg {
-        width: 30%;
+        width: 22%;
+    }
+
+    &__maker {
+        font-weight: bold;
+        color: #888;
     }
 
     &__name {
-        font-size: 16px;
+        font-size: 24px;
+
+        &-mobile {
+            display: block;
+        }
+
+        &-window {
+            display: none;
+        }
+    }
+
+    &__prices {
+        @include flex($j: flex-start, $a: center);
+        border-bottom: 1px solid #000;
+        margin-bottom: 20px;
+        padding-bottom: 15px;
+    }
+
+    &__out {
+        margin-left: 10px;
+        color: #f00;
     }
 
     &__price {
         font-size: 24px;
         font-weight: bold;
+
+    }
+
+    &__cart {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        background: $black;
+        width: 200px;
+        text-align: center;
+        padding: 10px 5px 10px 0;
+        margin: 20px 0 0;
     }
 
     &__num {
         border: 1px solid #888;
         border-radius: 5px;
         padding: 0 3px;
-        margin-left: 15px;
+        margin-left: 0px;
         font-size: 14px;
+        background: #fff;
 
     }
 
@@ -207,5 +330,141 @@ body {
         letter-spacing: 0.1em;
         color: #444;
 
+    }
+
+    &__text {
+        margin-bottom: 30px;
+    }
+
+    &__option {
+        background: #efefef;
+        padding: 20px;
+
+        &-content {
+            @include flex($j: flex-start);
+            margin-top: 20px;
+        }
+    }
+
+    &__colors {
+        margin-right: 20px;
+        border-right: 1px solid $black;
+        padding-right: 20px;
+    }
+
+    &__care {
+        margin-top: 15px;
+        color: #888;
+
+        &-text {
+            color: #888;
+
+            &-mail {
+                margin-top: 20px;
+            }
+        }
+    }
+
+    &__mail {
+        color: #00f;
+    }
+
+
+}
+
+//mobile----------------------------------------------------------------------------
+@media(max-width:640px) {
+
+    .header {
+        padding-top: 20px;
+        margin-bottom: 20px;
+
+        &__list {
+            display: none;
+        }
+    }
+
+    .footer {
+        &__inner {
+            @include inner($w: 75%);
+        }
+    }
+
+    .mainv {
+        padding-top: 70px;
+        margin-bottom: 60px;
+
+        &__title {
+            font-size: 40px;
+            letter-spacing: 0.1em;
+        }
+    }
+
+    .items {
+
+        &__inner {
+            @include inner();
+        }
+
+        &__content {
+            justify-content: space-between;
+        }
+
+        &__link {
+            position: relative;
+            color: $black;
+            text-decoration: none;
+            display: block;
+            margin-bottom: 30px;
+            width: 45%;
+            margin-right: 5%;
+
+            &:nth-child(2n) {
+                margin-right: 0;
+            }
+        }
+
+        &__span {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border: 0px solid #ffff;
+        }
+    }
+
+    .pros {
+        &__inner {
+            @include inner();
+            @include flex();
+            flex-wrap: wrap;
+        }
+
+        &__images {
+            width: 100%;
+        }
+
+        &__info {
+            width: 100%;
+        }
+
+        &__name {
+            &-mobile {
+                display: none;
+            }
+
+            &-window {
+                display: block;
+                text-align: center;
+                margin-bottom: 20px;
+            }
+        }
+
+        &__price {
+            margin-top: 0px;
+        }
+
+        &__prices {
+            margin-top: 20px;
+        }
     }
 }

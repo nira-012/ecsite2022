@@ -13,29 +13,74 @@ indexPath: ../../index.html
 {{ pagination.items | log }}
 
 
+<main class="main">
+<section class="mainv">
+    <h2 class="mainv__title">DeNIRALE</h2>
+</section>
 
 <section class="pros">
   <div class="pros__inner">
     <div class="pros__images">
+      <p class="pros__name pros__name-window">{{ item.name }}</p>
         <img src="{{imgPath}}/{{item.itemphotos[0]}}" class="pros__mainimg" alt="">
         <div class="pros__subimg">
+              <img src="{{imgPath}}/{{item.itemphotos[0]}}" class="pros__miniimg" alt="">
               <img src="{{imgPath}}/{{item.itemphotos[1]}}" class="pros__miniimg" alt="">
               <img src="{{imgPath}}/{{item.itemphotos[2]}}" class="pros__miniimg" alt="">
               <img src="{{imgPath}}/{{item.itemphotos[3]}}" class="pros__miniimg" alt="">
         </div>
     </div>
     <div class="pros__info">
-        <p class="pros__name">{{ item.name }}</p>
-         <p class="pros__price">{{ item.price }}</p>
+        <p class="pros__name pros__name-mobile">{{ item.name }}</p>
+        <div class="pros__prices">
+         <p class="pros__price">¥{{ item.price }}</p>
+          <p class="pros__out" id="{{ item.state }}">※在庫切れ</p>
+         </div>
+
           <p class="pros__maker">{{ item.maker }}</p>
-          <p class="pros__maker">{{ item.text }}</p>
-          <label for="" class="pros__label">数量<input type = "number" class="pros__num"></label>
-           <label for="" class="pros__label">種類<input type = "number" class="pros__num"></label>
+          <p class="pros__text">{{ item.text }}</p>
+
+
+<div class="pros__option">
+<p class="pros__id">品番：{{ item.id }}</p>
+    <label for="" class="pros__label">数量<input type = "number" class="pros__num"></label>
+
+
+    <div class="pros__option-content">
+        <div class="pros__colors">
+          <p class="pros__color">カラー</p>
            {% for col in item.colors %}
-<input type = "radio" name="colors" class="pros__num">
-<p class="aa">{{ col.label }}</p>
-	{% endfor %}
+              <input type = "radio" name="colors" class="pros__num">
+              <label class="pros__label">{{ col.label }}</label>
+	        {% endfor %}
+        </div>
+        <div class="pros__sizes">
+          <p class="pros__size">サイズ</p>
+           {% for size in item.size %}
+              <input type = "radio" name="colors" class="pros__num">
+              <label class="pros__label">{{ size.label }}</label>
+	        {% endfor %}
+        </div>
+    </div>
+
+
+         <a href="" class="pros__cart">カートに入れる</a>
+        </div>
+
+  <p class="pros__care">■商品の発送に関して</p>
+      <p class="pros__care-text">・発送は通常1～2営業日以内に発送いたします。</p>
+   <p class="pros__care-text">・送料は全国一律で¥700でお届けいたします。</p>
+    <p class="pros__care-text">※税抜き¥15,000以上ご購入の場合は無料でお届けいたします。</p>
+
+      <p class="pros__care">■返品/交換について</p>
+      <p class="pros__care-text">・お客様都合での商品交換/返品はお断りしております。</p>
+   <p class="pros__care-text">・商品に不備があり、交換/返品をご希望の場合は商品到着後５日以内に必ず、以下のお問合せ窓口までメールにてご連絡願いします。</p>
+    <p class="pros__care-text pros__care-text-mail">メール：<span class="pros__mail">horii.nira12@gmail.com</span></p>
+
     </div>
   </div>
 </section>
+
+
 <script src="../../js/pros.js"></script>
+</main>

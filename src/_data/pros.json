@@ -7,54 +7,120 @@
             "rose-4.jpg"
         ],
         "name": "レッドローズ",
-        "price": 12,
+        "price": "12,000",
         "state": "TRUE",
-        "text": "長さを変化させて、付け方のバリエーションを楽しむことが出来るラリアットネックレスです。鏡面仕上げで作り上げた柔らかなシルエットの丸パーツとマットに仕上げたバーパーツのコンビネーション。チェーンは立体的なボックスシルエットのスネークを使用し単体での使用でも存在感のあるネックレスに仕上げています。長さは70cmとロング丈で製作していますので、その他のネックレスとの重ね付けや重にしたチョーカー使用もおすすめです。",
+        "text": "バラ（薔薇）は、バラ科バラ属の総称である。あるいは、そのうち特に園芸種（園芸バラ・栽培バラ）を総称する（花が鑑賞用や食用とされる ）。本項では、後者の園芸バラ・栽培バラを扱うこととする。",
         "id": 27002,
         "colors": [
             {
-                "label": "red"
+                "label": "赤",
+                "color": "#B22828"
             },
             {
-                "label": "red"
+                "label": "青",
+                "color": "#2828B2"
             },
             {
-                "label": "red"
+                "label": "黒",
+                "color": "#000000"
             }
         ],
-        "maker": "（株）やおきん",
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "rose"
     },
     {
         "itemphotos": [
             "dolphin.jpg",
             "dolphin-2.jpg",
-            "dolphi-3.jpg",
+            "dolphin-3.jpg",
             "dolphin-4.jpg"
         ],
         "name": "ドルフィン",
-        "price": 50,
+        "price": "50,000",
         "state": "FALSE",
-        "text": "情熱の青",
+        "text": "イルカ（海豚、鯆）は、哺乳類クジラ目ハクジラ亜目に属する種の内、体長5メートル以下の種の総称である。なお、この区別は便宜的なもので分類上においては明確なものではない。",
         "id": "4710158-2",
-        "colors": "青",
-        "maker": "よっちゃん食品工業（株）",
+        "colors": [
+            {
+                "label": "紫",
+                "color": "#9A5FD5"
+            },
+            {
+                "label": "水色",
+                "color": "#5FD5B5"
+            },
+            {
+                "label": "黄緑",
+                "color": "#8BE387"
+            }
+        ],
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "dolphin"
     },
     {
         "itemphotos": [
-            "ship.jpg",
             "ship-2.jpg",
+            "ship.jpg",
             "ship-3.jpg",
             "ship-4.jpg"
         ],
         "name": "パイレーツ",
-        "price": 12,
+        "price": "30,000",
         "state": "TRUE",
-        "text": "情熱の赤",
+        "text": "例えば、パクス・ロマーナは、ローマ帝国海軍が地中海の覇権を掌握したとき成立し、それを維持できない段階で消滅した。日本においても、織田信長・豊臣秀吉・徳川家康は、海賊の取り締まりを重視し、これによって中世から近世への扉が開かれた。",
         "id": 27002,
-        "colors": "赤",
-        "maker": "（株）やおきん",
+        "colors": [
+            {
+                "label": "金",
+                "color": "#CCC97A"
+            },
+            {
+                "label": "黒",
+                "color": "#333333"
+            },
+            {
+                "label": "青",
+                "color": "#164693"
+            },
+            {
+                "label": "紫",
+                "color": "#57308B"
+            }
+        ],
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "ship"
     },
     {
@@ -65,28 +131,80 @@
             "sun-4.jpg"
         ],
         "name": "サン",
-        "price": 50,
+        "price": "40,000",
         "state": "FALSE",
-        "text": "情熱の青",
+        "text": "太陽（たいよう、英: Sun、羅: Sol）は、銀河系（天の川銀河）の恒星の一つである。人類が住む地球を含む太陽系の物理的中心であり、太陽系の全質量の99.8 %を占め、太陽系の全天体に重力の影響を与える。",
         "id": "4710158-2",
-        "colors": "青",
-        "maker": "よっちゃん食品工業（株）",
+        "colors": [
+            {
+                "label": "橙",
+                "color": "#F87300"
+            },
+            {
+                "label": "ピンク",
+                "color": "#F800C9"
+            },
+            {
+                "label": "黄",
+                "color": "#F5FF00"
+            },
+            {
+                "label": "黄緑",
+                "color": "#62FF00"
+            }
+        ],
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "sun"
     },
     {
         "itemphotos": [
-            "water.jpg",
-            "water-2.jpg",
             "water-3.jpg",
+            "water-2.jpg",
+            "water.jpg",
             "water-4.jpg"
         ],
         "name": "ウォータークラウン",
-        "price": 50,
+        "price": "3,000,000",
         "state": "FALSE",
-        "text": "情熱の青",
+        "text": "西洋の冠（せいようのかんむり）では、西洋の君主（特に国王）が自らの権威を示すために頭にかぶる冠（英語: crown）について記述する。日本語では一般に王冠と訳され、皇帝の場合には特に帝冠（英語: imperial crown）とも呼ばれる。",
         "id": "4710158-2",
-        "colors": "青",
-        "maker": "よっちゃん食品工業（株）",
+        "colors": [
+            {
+                "label": "紫",
+                "color": "#8803FA"
+            },
+            {
+                "label": "水色",
+                "color": "#03FAE7"
+            },
+            {
+                "label": "赤",
+                "color": "#FA0359"
+            }
+        ],
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "water"
     },
     {
@@ -97,12 +215,40 @@
             "castle-4.jpg"
         ],
         "name": "キャッスル",
-        "price": 50,
+        "price": "20,000",
         "state": "FALSE",
-        "text": "情熱の青",
+        "text": "主に近代以前の軍事的な防衛施設を呼ぶ。戦闘拠点であるとともに食糧や武器や資金の備蓄場所でもある。主要な城は、為政者や指揮官の住居であり、政治や情報の拠点であった。純防衛用として山地に建築されることも多いが、街道や河川などの交通の要衝を抑え利用することも多い。",
         "id": "4710158-2",
-        "colors": "青",
-        "maker": "よっちゃん食品工業（株）",
+        "colors": [
+            {
+                "label": "白",
+                "color": "#ffffff"
+            },
+            {
+                "label": "緑",
+                "color": "#1E8943"
+            },
+            {
+                "label": "黄",
+                "color": "#EBCA5C"
+            },
+            {
+                "label": "黒",
+                "color": "#333333"
+            }
+        ],
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "castle"
     },
     {
@@ -113,76 +259,160 @@
             "dog-4.jpg"
         ],
         "name": "ドッグ",
-        "price": 12,
+        "price": "400,000",
         "state": "TRUE",
-        "text": "情熱の赤",
+        "text": "古来、日本ではヤマイヌ（狼）に対して「イエイヌ」（家犬）とも言っていた。英語名 domestic dog は、伝統的な学名 C. familiaris（家族の-犬）を英訳にしたもので、日本では domestic dog の訳語として古くからすでにあったイエイヌの語をあてるようになった。",
         "id": 27002,
-        "colors": "赤",
-        "maker": "（株）やおきん",
+        "colors": [
+            {
+                "label": "金",
+                "color": "#EFE609"
+            },
+            {
+                "label": "茶",
+                "color": "#B26915"
+            },
+            {
+                "label": "黒",
+                "color": "#919191"
+            }
+        ],
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "dog"
     },
     {
         "itemphotos": [
-            "skull.jpg",
-            "skull-2.jpg",
-            "skull-3.jpg",
-            "skull-4.jpg"
+            "shrk.jpg",
+            "shrk-2.jpg",
+            "shrk-3.jpg",
+            "shrk-4.jpg"
         ],
-        "name": "スカル",
-        "price": 50,
+        "name": "シャーク",
+        "price": "36,000",
         "state": "FALSE",
-        "text": "情熱の青",
+        "text": "白亜紀初期にホホジロザメから分岐して絶滅したネズミザメ科に分類されている。属名についてはまだ議論があり、Carcharocles、Megaselachus、オトドゥス、Procarcharodonのいずれかに分類されている。これは、メガロドンが、暁新世に進化したオトドゥス属の巨大ザメの系統の最終種であることを示す移行化石が発見されたためである。",
         "id": "4710158-2",
-        "colors": "青",
-        "maker": "よっちゃん食品工業（株）",
+        "colors": [
+            {
+                "label": "水色",
+                "color": "#225865"
+            },
+            {
+                "label": "青",
+                "color": "#222A65"
+            },
+            {
+                "label": "赤",
+                "color": "#65223A"
+            }
+        ],
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "skull"
     },
     {
         "itemphotos": [
-            "rose.jpg",
-            "red-2.jpg",
-            "red-3.jpg",
-            "red-4.jpg"
+            "shell.jpg",
+            "shell-2.jpg",
+            "shell-3.jpg",
+            "shell-4.jpg"
         ],
-        "name": "レッドローズ",
-        "price": 12,
+        "name": "パールシェル",
+        "price": "56,000",
         "state": "TRUE",
-        "text": "情熱の赤",
+        "text": "基本的には殻本体（炭酸カルシウムCaCO3の結晶とコンキオリンと呼ばれるタンパク質を主とする物質の複合体）と、キチン質の殻皮とから成る。",
         "id": 27002,
-        "colors": "赤",
-        "maker": "（株）やおきん",
+        "colors": [
+            {
+                "label": "ピンク",
+                "color": "#FFC3E8"
+            },
+            {
+                "label": "青",
+                "color": "#C3CCFF"
+            },
+            {
+                "label": "金",
+                "color": "#F0E883"
+            }
+        ],
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "rose2"
     },
     {
         "itemphotos": [
-            "dolphin.jpg",
-            "dolphin-2.jpg",
-            "dolphi-3.jpg",
-            "dolphin-4.jpg"
+            "dinosaur.jpg",
+            "dinosaur-2.jpg",
+            "dinosaur-3.jpg",
+            "dinosaur-4.jpg"
         ],
-        "name": "ドルフィン",
-        "price": 50,
-        "state": "FALSE",
-        "text": "情熱の青",
-        "id": "4710158-2",
-        "colors": "青",
-        "maker": "よっちゃん食品工業（株）",
-        "url": "dolphin2"
-    },
-    {
-        "itemphotos": [
-            "ship.jpg",
-            "ship-2.jpg",
-            "ship-3.jpg",
-            "ship-4.jpg"
-        ],
-        "name": "パイレーツ",
-        "price": 12,
+        "name": "ティラノサウルス",
+        "price": "490,000",
         "state": "TRUE",
-        "text": "情熱の赤",
+        "text": "ティラノサウルス（学名：genus Tyrannosaurus）は、約6,800万 - 約6,600万年前（中生代白亜紀末期マーストリヒチアン）の北アメリカ大陸（画像資料[注 1]）に生息していた肉食恐竜。大型獣脚類の1属である。他にティランノサウルス、チラノサウルス、タイラノサウルスなどとも呼ばれる。",
         "id": 27002,
-        "colors": "赤",
-        "maker": "（株）やおきん",
+        "colors": [
+            {
+                "label": "白",
+                "color": "#FFFFFF"
+            },
+            {
+                "label": "水色",
+                "color": "#B6DCE5"
+            },
+            {
+                "label": "ピンク",
+                "color": "#E5B6E1"
+            },
+            {
+                "label": "赤",
+                "color": "#DB6969"
+            }
+        ],
+        "size": [
+            {
+                "label": "S"
+            },
+            {
+                "label": "M"
+            },
+            {
+                "label": "L"
+            }
+        ],
+        "maker": "(株)NIRATCHI",
         "url": "ship2"
     }
 ]

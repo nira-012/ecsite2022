@@ -14,16 +14,16 @@ title: De NIRALE
 	<body>
 		<header class="header">
     <div class="header__inner">
-	<h1 class="header__logo"><a href="{{indexPath}}" class="header__logo-link">{{ title }}</a></h1>
+	<h1 class="header__logo"><a href="{{indexPath}}" class="header__logo-link"><img src="{{imgPath}}1x/logo.png" alt="" class="header__logo-img"></a></h1>
 	<nav class="header__nav">
 		<ul class="header__list">
-			<li class="header__item"><a href="" class="header__item-link">HOME</a></li>
-			<li class="header__item"><a href="" class="header__item-link">ABOUT</a></li>
-			<li class="header__item"><a href="" class="header__item-link">BLOG</a></li>
+			<li class="header__item"><a href="{{indexPath}}" class="header__item-link">HOME</a></li>
+			<li class="header__item"><a href="https://ni-labo.net/portfolio/" class="header__item-link">ABOUT</a></li>
+			<li class="header__item"><a href="https://ni-labo.net/blog/" class="header__item-link">BLOG</a></li>
 		</ul>
 		<div class="header__btns">
-			<img src="{{imgPath}}icon.png" alt="" class="header__icon">
-			<img src="{{imgPath}}icon.png" alt="" class="header__icon">
+			<img src="{{imgPath}}pig.png" alt="" class="header__icon">
+			<img src="{{imgPath}}cart.png" alt="" class="header__icon">
 
 		</div>
 	</nav>
@@ -31,8 +31,26 @@ title: De NIRALE
 </header>
 
 		{{ content | safe }}
-		<footer class="footer">
-			<small class="footer__copy">horiikouta</small>
+
+<footer class="footer">
+		<div class="footer__inner">
+			<p class="footer__title">DeNIRALE</p>
+			<ul class="footer__list">
+				<li class="footer__item"><a href="{{indexPath}}" class="footer__item-link">HOME</a></li>
+				<li class="footer__item"><a href="https://ni-labo.net/portfolio/" class="footer__item-link">ABOUT</a></li>
+				<li class="footer__item"><a href="https://ni-labo.net/blog/" class="footer__item-link">BLOG</a></li>
+			</ul>
+		</div>
+		<div class="footer__copy">
+		<div class="footer__copy-inner">
+			<small class="footer__small">horiikouta</small>
+			<div class="footer__icons">
+			<a href="" class="footer__icon"><img src="{{imgPath}}pig2.png" class="footer__img"></a>
+			<a href="" class="footer__icon"><img src="{{imgPath}}twitter.png" class="footer__img"></a>
+			<a href="" class="footer__icon"><img src="{{imgPath}}insta.png" class="footer__img"></a>
+			</div>
+		</div>
+		</div>
 		</footer>
 	</body>
 </html>

@@ -21,7 +21,15 @@ indexPath: index.html
     <div class="items__texts">
         <p class="items__name"> {{ item.name }}</p>
     	<p class="items__price">¥{{ item.price }}</p>
+
+<div class="items__colors">
+           {% for col in item.colors %}
+              <span class="items__span" style="background-color:{{ col.color }}"></span>
+	       {% endfor %}
+</div>
+
     </div>
+
 </div>
  </a>
 	{% endfor %}
