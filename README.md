@@ -7,6 +7,7 @@
 ## 完成品
 
 <!-- 完成後、ここにURLを貼ってください。-->
+https://ni-labo.net/_site
 
 ## Features
 
