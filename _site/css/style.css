@@ -180,11 +180,17 @@ body {
 }
 .items__more {
   display: block;
+  font-weight: bold;
   margin-top: 50px;
   width: 200px;
   padding: 15px;
   border: 1px solid #062529;
   margin: 50px auto 0;
+  transition: 0.3s;
+}
+.items__more:hover {
+  background: #062529;
+  color: #fff;
 }
 .items__out {
   position: absolute;
@@ -306,6 +312,48 @@ body {
 }
 .pros__mail {
   color: #00f;
+}
+
+.other {
+  margin-top: 100px;
+}
+.other__inner {
+  width: 85%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.other__content {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.other__link {
+  position: relative;
+  color: #062529;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 30px;
+  width: 17%;
+  margin-right: 3%;
+}
+.other__link:nth-child(3n) {
+  margin-right: 3%;
+}
+.other__link:nth-child(5n) {
+  margin-right: 0;
+}
+.other__texts {
+  background: #fff;
+  padding: 0;
+  padding-top: 10px;
+}
+.other__name {
+  margin-bottom: 0px;
+}
+.other__price {
+  position: initial;
+  text-align: left;
 }
 
 @media (max-width: 640px) {

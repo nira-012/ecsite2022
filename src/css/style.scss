@@ -215,11 +215,20 @@ body {
     &__more {
 
         display: block;
+        font-weight: bold;
         margin-top: 50px;
         width: 200px;
         padding: 15px;
         border: 1px solid $black;
         margin: 50px auto 0;
+        transition: .3s;
+
+        &:hover {
+            background: $black;
+            color: #fff;
+        }
+
+
     }
 
     &__out {
@@ -370,6 +379,54 @@ body {
     }
 
 
+}
+
+.other {
+    margin-top: 100px;
+
+    &__inner {
+        @include inner();
+    }
+
+    &__content {
+        @include flex($j: flex-start);
+        flex-wrap: wrap;
+
+    }
+
+    &__link {
+        position: relative;
+        color: $black;
+        text-decoration: none;
+        display: block;
+        margin-bottom: 30px;
+        width: 17%;
+        margin-right: 3%;
+
+        &:nth-child(3n) {
+            margin-right: 3%;
+        }
+
+        &:nth-child(5n) {
+            margin-right: 0;
+        }
+    }
+
+    &__texts {
+        background: #fff;
+        padding: 0;
+        padding-top: 10px;
+    }
+
+    &__name {
+        margin-bottom: 0px;
+    }
+
+    &__price {
+        position: initial;
+        text-align: left;
+
+    }
 }
 
 //mobile----------------------------------------------------------------------------
